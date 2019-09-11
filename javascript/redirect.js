@@ -10,7 +10,7 @@ if (window.opener) {
   document.querySelector('.content').innerHTML = successMessage;
   // Add full path below if you want to redirect the page to some other domain
   // e.g. => https://google.com
-  window.opener.location = '/pages/hacked.html';
+  window.opener.location = '../pages/hacked.html';
 } else {
   document.querySelector('.content').innerHTML = errorMessage;
 }
