@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link href="https://unpkg.com/sanitize.css/forms.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/sanitize.css/typography.css"
+      rel="stylesheet"
+    />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Profile Page</title>
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav class="navbar">
+      <div class="navbar__title">My Website</div>
+      <div class="navabr__links">
+        <a href="./pages/redirect.html" class="navbar__link" target="_blank">
+          Redirect
+        </a>
+        <a href="./pages/display.html" class="navbar__link" target="_blank">
+          Get Data
+        </a>
+        <a href="./pages/manipulate.html" class="navbar__link" target="_blank">
+          Manipulate DOM
+        </a>
+        <a href="./pages/forms.html" class="navbar__link" target="_blank">
+          Forms
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+    <!-- Container starts -->
+    <section class="container">
+      <div class="profile">
+        <div class="profile__image-container">
+          <img
+            class="profile__image"
+            src="./images/profile.jpg"
+            alt="Profile Image"
+          />
+        </div>
+        <div class="profile__info">
+          <div class="profile__primary-info">
+            <div class="profile__user-name">Apal Shah</div>
+            <div class="profile__user-role">Fullstack Developer</div>
+          </div>
+          <div class="profile__secondary-info">
+            <div class="profile__user-email">
+              <span class="profile__user-email_bold">Email:</span>
+              apal@example.com
+            </div>
+            <div class="profile__user-phone">
+              <span class="profile__user-phone_bold">Phone:</span>
+              +91-9876543210
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Container ends -->
+  </body>
+</html>
