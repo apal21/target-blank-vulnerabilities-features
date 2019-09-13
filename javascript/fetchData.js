@@ -4,6 +4,8 @@ if (window.opener) {
   const email = document.querySelector('#email');
   const contact = document.querySelector('#contact');
   const image = document.querySelector('#image-url');
+  const balance = document.querySelector('#balance');
+  const aadhaar = document.querySelector('#aadhaar');
 
   name.innerHTML = window.opener.document.querySelector(
     '.profile__user-name'
@@ -22,6 +24,10 @@ if (window.opener) {
   ).innerHTML;
 
   image.innerHTML = window.opener.document.querySelector('.profile__image').src;
+
+  balance.innerHTML = window.opener.document.querySelector('.profile__balance').innerHTML;
+
+  aadhaar.innerHTML = window.opener.document.querySelector('.profile__aadhaar').innerHTML;
 } else {
   alert("Couldn't fetch any data");
 }

@@ -47,7 +47,7 @@
 }
 
 .profile__image-container {
-  width: 180px;
+  width: 200px;
   height: auto;
   border-radius: 50%;
   overflow: hidden;
@@ -77,6 +77,14 @@
 }
 
 .profile__user-phone_bold {
+  font-weight: 600;
+}
+
+.profile__user-balance_bold {
+  font-weight: 600;
+}
+
+.profile__user-aadhaar_bold {
   font-weight: 600;
 }
 /* Profile Ends */
